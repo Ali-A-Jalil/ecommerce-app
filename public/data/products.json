@@ -1,0 +1,127 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Lipstick",
+        "category": "Beauty",
+        "price": 20,
+        "image": "https://via.placeholder.com/150",
+        "description": "Long-lasting and vibrant lipstick."
+      },
+      {
+        "id": 2,
+        "name": "Face Cream",
+        "category": "Beauty",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "description": "Hydrating and soothing face cream."
+      },
+      {
+        "id": 3,
+        "name": "Mascara",
+        "category": "Beauty",
+        "price": 18,
+        "image": "https://via.placeholder.com/150",
+        "description": "Waterproof and volumizing mascara."
+      },
+      {
+        "id": 4,
+        "name": "T-shirt",
+        "category": "Clothing",
+        "price": 25,
+        "image": "https://via.placeholder.com/150",
+        "description": "Comfortable cotton t-shirt."
+      },
+      {
+        "id": 5,
+        "name": "Jeans",
+        "category": "Clothing",
+        "price": 50,
+        "image": "https://via.placeholder.com/150",
+        "description": "Stylish and durable denim jeans."
+      },
+      {
+        "id": 6,
+        "name": "Sunglasses",
+        "category": "Accessories",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "description": "Fashionable UV-protected sunglasses."
+      },
+      {
+        "id": 7,
+        "name": "Perfume",
+        "category": "Beauty",
+        "price": 55,
+        "image": "https://via.placeholder.com/150",
+        "description": "Long-lasting and captivating fragrance."
+      },
+      {
+        "id": 8,
+        "name": "Sneakers",
+        "category": "Clothing",
+        "price": 75,
+        "image": "https://via.placeholder.com/150",
+        "description": "Comfortable and stylish sneakers."
+      },
+      {
+        "id": 9,
+        "name": "Earrings",
+        "category": "Accessories",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "description": "Elegant and lightweight earrings."
+      },
+      {
+        "id": 10,
+        "name": "Cap",
+        "category": "Accessories",
+        "price": 12,
+        "image": "https://via.placeholder.com/150",
+        "description": "Fashionable and stylish cap."
+      },
+      {
+        "id": 11,
+        "name": "Wallet",
+        "category": "Accessories",
+        "price": 40,
+        "image": "https://via.placeholder.com/150",
+        "description": "Stylish and practical wallet."
+      },
+      {
+        "id": 12,
+        "name": "Necklace",
+        "category": "Accessories",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "description": "Beautiful and intricate necklace."
+      },
+      { "id": 13,
+       "name": "Kids T-Shirt",
+        "category": "Kids Clothing",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "description": "Cute and comfortable kids t-shirt." },
+      { "id": 14, 
+      "name": "Kids Jeans", 
+      "category": "Kids Clothing", 
+      "price": 25, 
+      "image": "https://via.placeholder.com/150", 
+      "description": "Stylish and durable kids jeans."
+    },
+      { "id": 15, 
+      "name": "Dress", 
+      "category": "Women Clothing", 
+      "price": 50, 
+      "image": "https://via.placeholder.com/150", 
+      "description": "Elegant and feminine dress." 
+    },
+      { "id": 16, 
+      "name": "Blouse", 
+      "category": "Women Clothing", 
+      "price": 35, 
+      "image": "https://via.placeholder.com/150", 
+      "description": "Stylish and comfortable blouse." }
+    ]
+  }
+  

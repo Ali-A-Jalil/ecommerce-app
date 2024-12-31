@@ -1,0 +1,193 @@
+/* الوضع الفاتح */
+body.light {
+    background-color: #f9f9f9; /* خلفية الموقع */
+    color: #333; /* لون النص */
+  }
+  
+  header.light {
+    background-color: #ffffff; /* خلفية الهيدر */
+    color: #333; /* لون النص داخل الهيدر */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* ظل الهيدر */
+  }
+  
+  nav.light {
+    background-color: #f1f1f1; /* خلفية الناف بار */
+    color: #333; /* لون النص داخل الناف بار */
+  }
+  
+  button.light {
+    background-color: #4caf50; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    border: none; /* إزالة البوردر */
+    border-radius: 4px;
+  }
+  
+  button.light:hover {
+    background-color: #45a049; /* اللون عند المرور بالماوس */
+  }
+  
+  .card.light {
+    background-color: #ffffff; /* خلفية الكارت */
+    color: #333; /* لون النص داخل الكارت */
+    border: 1px solid #ddd; /* لون البوردر */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* ظل الكارت */
+  }
+  
+  footer.light {
+    background-color: #f1f1f1; /* خلفية الفوتر */
+    color: #333; /* لون النص داخل الفوتر */
+    border-top: 2px solid #ddd; /* بوردر علوي */
+  }
+  
+  /* الوضع الليلي */
+  body.dark {
+    background-color: #1a202c; /* خلفية الموقع */
+    color: #f9f9f9; /* لون النص */
+  }
+  
+  header.dark {
+    background-color: #2d3748; /* خلفية الهيدر */
+    color: #f9f9f9; /* لون النص داخل الهيدر */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* ظل الهيدر */
+  }
+  
+  nav.dark {
+    background-color: #4a5568; /* خلفية الناف بار */
+    color: #f9f9f9; /* لون النص داخل الناف بار */
+  }
+  
+  button.dark {
+    background-color: #63b3ed; /* لون الخلفية */
+    color: #1a202c; /* لون النص */
+    border: none; /* إزالة البوردر */
+    border-radius: 4px;
+  }
+  
+  button.dark:hover {
+    background-color: #4299e1; /* اللون عند المرور بالماوس */
+  }
+  
+  .card.dark {
+    background-color: #2d3748; /* خلفية الكارت */
+    color: #f9f9f9; /* لون النص داخل الكارت */
+    border: 1px solid #4a5568; /* لون البوردر */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* ظل الكارت */
+  }
+  
+  footer.dark {
+    background-color: #2d3748; /* خلفية الفوتر */
+    color: #f9f9f9; /* لون النص داخل الفوتر */
+    border-top: 2px solid #4a5568; /* بوردر علوي */
+  }
+  
+  /* تحسين الأيقونات */
+  .icon {
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #ffd700; /* لون عند التفاعل */
+  }
+  
+  /* تحسين النصوص */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* تحسين الزرائر */
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* تحسين الكروت */
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* تحسين الروابط */
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ffd700; /* لون الروابط عند التفاعل */
+  }
+  
+  footer {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+  footer ul li {
+    margin-bottom: 6px;
+  }
+  footer button {
+    transition: background-color 0.3s ease;
+  }
+  footer button:hover {
+    background-color: #333;
+  }
+  footer .icon:hover {
+    color: white;
+  }
+  
+
+/* Home.css */
+.home-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.background-slide {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+.slider-item {
+  position: relative;
+  z-index: 10;
+}
+
+
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
